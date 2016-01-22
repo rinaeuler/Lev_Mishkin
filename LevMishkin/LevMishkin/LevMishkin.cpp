@@ -575,6 +575,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	Z.print();
 	X.del(10);
 	X.print();
+	X.znach(5);
 
 	X.~X();
 	Y.~Y();
